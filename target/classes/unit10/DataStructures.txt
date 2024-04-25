@@ -1,0 +1,49 @@
+1. Queue, Stack, List
+2. BinaryTree
+3. BinarySearchTree
+4. N-Ary Tree
+
+1. Graph
+2. Graph
+3. Graph
+4. Graph
+5. Graph
+6. Graph
+
+Vertex T : W
+Vertex U : W
+Vertex V : Y
+Vertex W : T, U
+Vertex X : Y, Z
+Vertex Y : V, X, Z
+Vertex Z : X, Y
+
+Vertex A : B
+Vertex B : A, C
+Vertex C : E, F
+Vertex D : A, C, G
+Vertex E : C, F
+Vertex F : C, E
+Vertex G : C, D
+
+Vertex: G  |  Predecessor: null
+Vertex: F  |  Predecessor: G
+Vertex: E  |  Predecessor: F
+Vertex: C  |  Predecessor: E
+
+G to C: G F E C
+Path: G F E C
+
+Vertex: F  |  Predecessor: null
+Vertex: E  |  Predecessor: F
+Vertex: G  |  Predecessor: F
+Vertex: C  |  Predecessor: E
+Vertex: B  |  Predecessor: C
+Vertex: H  |  Predecessor: C
+
+F to H: F E G C B H
+Path: F E C H
+
+Z: Z Y U V W X
+W: W U V X Y Z
+Y: Y U V W X Z
